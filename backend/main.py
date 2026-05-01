@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routers import documents
-from routers import chat, analytics
+
+from routers import chat, analytics, documents
 
 app = FastAPI(title="AI Insights Assistant")
 
