@@ -1,7 +1,17 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, UploadFile, File
 import pandas as pd
+import shutil, os 
 
 router = APIRouter()
+
+@router.post("/ingest/csv")
+def ingest_csv(file: UploadFile = File(...)):
+    save_path = f"../data/csv/{file.filename}"
+    with open(save_path, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+    df = pd.read_csv(save_path)
+    return {"message": f"{file.filename} uploaded successfully", "rows": len(df), "columns": list(df.columns)}
+
 
 @router.get("/analytics/top-movies")
 def top_movies():
