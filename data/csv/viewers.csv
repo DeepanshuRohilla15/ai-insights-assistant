@@ -1,0 +1,11 @@
+viewer_id,age_group,gender,preferred_genre
+1,18-24,M,Sci-Fi
+2,25-34,F,Drama
+3,35-44,M,Action
+4,18-24,F,Comedy
+5,45-54,M,Drama
+6,25-34,F,Sci-Fi
+7,18-24,M,Action
+8,35-44,F,Comedy
+9,25-34,M,Sci-Fi
+10,55+,F,Drama

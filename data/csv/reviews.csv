@@ -1,0 +1,11 @@
+movie_id,avg_stars,review_count,sentiment
+1,4.8,15000,positive
+2,4.2,9000,positive
+3,4.5,11000,positive
+4,3.9,6000,neutral
+5,2.5,2000,negative
+6,4.1,8000,positive
+7,4.6,13000,positive
+8,3.7,5000,neutral
+9,4.3,10000,positive
+10,2.3,1500,negative

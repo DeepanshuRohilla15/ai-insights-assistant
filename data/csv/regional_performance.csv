@@ -1,0 +1,11 @@
+city,movie_id,views,engagement_score,month
+Mumbai,1,124128,8.5,March
+Delhi,2,150748,7.4,March
+Bangalore,3,57810,9.9,March
+Chennai,4,140018,7.9,March
+Pune,5,109392,8.8,March
+Mumbai,6,100937,9.4,February
+Delhi,7,165784,7.3,February
+Bangalore,8,185462,6.1,February
+Chennai,9,181482,6.6,February
+Pune,10,80461,6.4,February

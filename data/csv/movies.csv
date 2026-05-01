@@ -1,0 +1,11 @@
+movie_id,title,genre,release_year,rating,total_views
+1,Stellar Run,Sci-Fi,2025,9.1,1200000
+2,Dark Orbit,Sci-Fi,2024,8.4,980000
+3,Last Kingdom,Drama,2025,8.7,870000
+4,The Void,Thriller,2024,7.9,650000
+5,Comedy Nights,Comedy,2025,5.2,300000
+6,City Lights,Drama,2024,8.1,720000
+7,Apex,Action,2025,8.8,1100000
+8,Neon Wave,Sci-Fi,2024,7.5,580000
+9,Iron Fist,Action,2025,8.3,890000
+10,Laugh Track,Comedy,2024,4.9,210000
